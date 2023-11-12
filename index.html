@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="header">
+    <h1>GIPHY PARTY</h1>
+  </div>
+    
+  <div class="container">
+    <form id="gifForm">
+      <div class="form-group">
+        <label for="searchTerm">Search for a GIF:</label>
+        <input type="text" class="form-control" id="searchTerm" name="searchTerm" required>
+      </div>
+      <button type="submit" class="btn btn-dark">Search</button>
+    </form>
+
+    <button id="removeGifs" class="btn">Remove All GIFs</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

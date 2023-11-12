@@ -1,0 +1,23 @@
+/* styles.css */
+
+body {
+ background-color: #001f3f; 
+ color: white; 
+ }
+  
+  #header {
+ text-align: center;
+ margin-top: 20px;
+ }
+  
+  #gifForm {
+  text-align: center;
+  margin-top: 20px;
+ }
+  
+  #removeGifs {
+  background-color: #87CEEB; 
+  margin: 0 auto; 
+  display: block;
+ }
+  
